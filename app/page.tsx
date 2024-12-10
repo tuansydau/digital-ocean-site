@@ -11,7 +11,7 @@ export default function Home() {
 
         <div className="flex">
           {/* bottom proj card */}
-          <div className="w-64 h-72 border border-black bg-gradient-to-t from-lime-300 to-lime-500 to-85%">
+          <div className="w-64 h-72 border border-black bg-gradient-to-t from-lime-100 to-lime-300 to-85%">
             {/* top proj card */}
             <div className="w-64 h-72 ml-4 mt-4 hover:mt-0 hover:ml-0 hover:border-l-0 hover:border-t-0 border border-black bg-white transition-all duration-500 ease-in-out">
               <div className="pl-2 flex w-full h-8 border-b border-black items-center text-xs">
@@ -20,7 +20,7 @@ export default function Home() {
               <div className="pl-2 flex w-full h-16 border-b border-black items-center text-[32px] font-bold">
                 Arima Data
               </div>
-              <div className="pl-2 flex w-full h-32 border-b border-black items-center bg-[rgb(190,217,115)]" />
+              <div className="pl-2 flex w-full h-32 border-b border-black items-center bg-lime-400" />
               <div className="pl-2 flex w-full h-16 border-black items-center text-sm">
                 Home Page Redesign / Authentication Routes
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
             {/* top proj card */}
             <div className="w-64 h-72 ml-4 mt-4 hover:mt-0 hover:ml-0 hover:border-l-0 hover:border-t-0 border border-black bg-white transition-all duration-500 ease-in-out">
               <div className="pl-2 flex w-full h-8 border-b border-black items-center text-xs">
-                Fall 2021
+                Summer 2020 / Summer 2021
               </div>
               <div className="pl-2 flex w-full h-16 border-b border-black items-center text-[32px] font-bold">
                 4PAY
