@@ -7,7 +7,7 @@ import confetti from "canvas-confetti";
 import { useRef } from "react";
 
 export default function Home() {
-  const textRef = useRef(null);
+  const textRef = useRef<HTMLElement>(null);
 
   const launchConfetti = () => {
     if (textRef.current) {
