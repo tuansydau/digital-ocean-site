@@ -45,9 +45,9 @@ export default function About() {
               (other than my friends) to see the portfolio site! This website
               has gone through many different versions, and is self-hosted on my
               $6/mo DigitalOcean droplet. The trials and tribulations of
-              creating this website were plentiful, but it's super satisfying to
-              see it finally go live.
-            </p>{" "}
+              creating this website were plentiful, but it&apos;s super
+              satisfying to see it finally go live.
+            </p>
             <div className="mt-8" />
             <p
               style={{
