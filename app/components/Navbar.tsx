@@ -4,10 +4,10 @@ import Link from "next/link";
 import TuanDauImage from "@/public/assets/tuan-dau.gif";
 
 const buttonClass =
-  "border-black border py-[6px] px-12 text-xl bg-white hover:bg-black hover:text-white rounded-full";
+  "border-black border py-[6px] px-12 text-lg bg-white hover:bg-black hover:text-white rounded-full";
 
 const highlightedClass =
-  "border-black border py-[6px] px-12 text-xl bg-black text-white rounded-full";
+  "border-black border py-[6px] px-12 text-lg bg-black text-white rounded-full";
 
 interface NavbarPropTypes {
   slug?: string;
@@ -15,7 +15,7 @@ interface NavbarPropTypes {
 
 export default function Navbar({ slug }: NavbarPropTypes) {
   return (
-    <div className="z-10 flex w-full justify-center py-3 items-center space-x-12 bg-white border-black border-b">
+    <div className="z-10 flex w-full justify-center py-3 items-center space-x-12 bg-white border-black">
       <div className="flex justify-between w-full px-16 items-center">
         <Link href="/">
           <Image

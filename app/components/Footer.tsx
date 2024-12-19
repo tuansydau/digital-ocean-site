@@ -1,14 +1,13 @@
 "use client";
 
-import { useRouter } from "next/router";
 import Modal from "./Modal";
 import { useState } from "react";
 
 const whiteButtonClass =
-  "border-black rounded-full text-black border py-2 px-8 bg-white hover:bg-black hover:text-white hover:cursor-pointer";
+  "border-black rounded-full text-black border py-[6px] px-12 bg-white hover:bg-black hover:text-white hover:cursor-pointer text-lg";
 
 const darkButtonClass =
-  "border-white rounded-full text-white border py-2 px-8 bg-[#050D21] hover:bg-white hover:text-black hover:cursor-pointer";
+  "border-white rounded-full text-white border py-[6px] px-12 bg-[#050D21] hover:bg-white hover:text-black hover:cursor-pointer text-lg";
 
 const whiteNavbarClass = "flex border-t border-black w-full justify-center";
 const darkNavbarClass =
